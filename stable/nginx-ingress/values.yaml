@@ -557,13 +557,13 @@ imagePullSecrets: []
 # - name: secretName
 
 # TCP service key:value pairs
-# Ref: https://github.com/kubernetes/contrib/tree/master/ingress/controllers/nginx/examples/tcp
+# Ref: https://kubernetes.github.io/ingress-nginx/user-guide/exposing-tcp-udp-services/
 ##
 tcp: {}
 #  8080: "default/example-tcp-svc:9000"
 
 # UDP service key:value pairs
-# Ref: https://github.com/kubernetes/contrib/tree/master/ingress/controllers/nginx/examples/udp
+# Ref: https://kubernetes.github.io/ingress-nginx/user-guide/exposing-tcp-udp-services/
 ##
 udp: {}
 #  53: "kube-system/kube-dns:53"
